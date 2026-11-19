@@ -10,6 +10,8 @@ An Amazon Nova 2 Sonic speech-to-speech agent on AWS Bedrock orchestrates 16 rul
 
 The repository contains the application source, environment template, contracts, tests, and technical documentation. Setup and architecture details are in the main README. Credentials are not included and must be supplied locally through environment variables.
 
+The test suite was run during portfolio preparation: 130 tests, 127 passed, 3 optional demo tests skipped, and 0 failed.
+
 ## Attribution
 
 This is a fork of the original team repository at https://github.com/coelashackers332-dev/CATE-agent. It preserves the shared team codebase and does not imply sole authorship.
