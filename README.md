@@ -6,7 +6,7 @@ A personal booking manager for Gold and Diamond members, on the Cathay phone lin
 
 **CATE** (Cathay Automated Travel Expert) answers the call, already knows the member, and books and manages the trip in one call. It fills in name, passport, seat, meal and baggage from the profile and past trips, so nothing is asked twice, and it remembers needs such as a wheelchair as the right airport service code. Accessibility is part of personalisation: a member who needs help describes it once. CATE handles the routine; people handle the exceptions.
 
-Built for **Cathay Hackathon 2026**, theme *Premium Travel*, by team **E332 Coelas Hackers**.
+Built for **Cathay Hackathon 2026**, theme *Premium Travel*, by team **E332 Coelas Hackers** — a finalist team selected for the 24-hour Cathay Hackathon On-day.
 
 > **Status: working prototype.** A real phone call is answered on the laptop, Amazon Nova 2 Sonic talks with the caller, and the booking, the trip page sent by email, the pay page and the booked confirmation run end to end on Cathay's real schedule (OAG). The [Status](#status) table below shows what exists.
 
@@ -23,6 +23,7 @@ The demo follows Mr Wong, a Gold member who flew to Osaka in May with a wheelcha
 7. **Pay.** His open trip page turns into the payment page (Visa, Mastercard, Apple Pay, FPS and others). He pays and sees "Payment successful".
 8. **Booked.** The page goes back to his trip, now booked, and he gets an email with the booking reference and his needs card for airport staff.
 9. **Change it later.** On a later call: "Move my Osaka trip to the 28th", "Make it an aisle seat", "Add a bag." CATE reads the change back and any difference in price opens on the same payment page.
+
 ## Core rule: the AI talks, our code decides
 
 The voice model only listens, talks and chooses which tool to call. Every action that matters runs as a tool in our code, with its rule enforced there:
